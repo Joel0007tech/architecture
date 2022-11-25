@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-header{
+background-color: orangered;
+}
+nav{
+    display:flex;
+    justify-content: center;
+}
+nav,img{
+    margin-right: 3%;
+}
+ul{
+    list-style:none;
+    padding-top:3%;
+}
+li{
+    display:inline;
+}
+a{
+    text-decoration: none;
+    color:rgba(204, 197, 197, 0.87);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+nav,li,a{
+    word-spacing:30px;
+}
+a:hover{
+    border-bottom: 3px solid ;
+}
+#about,#works,#team,#contact{
+    word-spacing: 1px;
+}
