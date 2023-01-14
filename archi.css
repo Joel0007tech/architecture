@@ -1,39 +1,1194 @@
-*{
+@media screen and (min-width: 765px) {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.nav-header{
-background-color: orangered;
-}
-nav{
-    display:flex;
+  }
+  .nav-header {
+    background-color: rgba(255, 94, 0, 0.993);
+  }
+  nav {
+    display: flex;
     justify-content: center;
-}
-nav,img{
+  }
+  nav,
+  img {
     margin-right: 3%;
-}
-ul{
-    list-style:none;
-    padding-top:3%;
-}
-li{
-    display:inline;
-}
-a{
+    padding-top: 5px;
+    margin-left: 3%;
+    padding-bottom: 5px;
+  }
+  ul {
+    list-style: none;
+    padding-top: 3%;
+  }
+  li {
+    display: inline;
+  }
+  nav,
+  li,
+  a {
     text-decoration: none;
-    color:rgba(204, 197, 197, 0.87);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:20px;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
     text-transform: capitalize;
-    font-weight: 900;
-}
-nav,li,a{
-    word-spacing:30px;
-}
-a:hover{
-    border-bottom: 3px solid ;
-}
-#about,#works,#team,#contact{
+    font-weight: 500;
+  }
+  nav,
+  li,
+  a {
+    word-spacing: 30px;
+  }
+  a:hover {
+    border-top: 3px solid rgba(204, 202, 202, 0.89);
+  }
+  #about,
+  #works,
+  #team,
+  #contact {
     word-spacing: 1px;
+    letter-spacing: 2px;
+  }
+  .search {
+    margin-top: 40px;
+    margin-left: 2%;
+  }
+  .search input {
+    height: 35px;
+    width: 200px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+  }
+  .search a {
+    padding: 5px;
+    background-color: rgb(36, 35, 35);
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    position: relative;
+    right: 126px;
+    bottom: 1px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+  }
+  #about-us {
+    background-color: rgb(199, 194, 194);
+    width: 100%;
+  }
+  #about-us-mobile {
+    display: none;
+  }
+  .first-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 7%;
+  }
+  .heading {
+    display: inline-block;
+    margin-left: 2%;
+  }
+  .heading,
+  h3 {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+  }
+  .heading,
+  h1 {
+    color: rgba(255, 94, 0, 0.993);
+    margin-top: 2%;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 900;
+  }
+  p {
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: lighter;
+    margin-top: 3%;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #btn {
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    border: none;
+    word-spacing: normal;
+    cursor: pointer;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 13px;
+    margin-top: 7%;
+  }
+  .btn:hover {
+    background-color: rgba(223, 70, 14, 0.884);
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 3%;
+  }
+  .first-card {
+    background-color: rgba(192, 67, 21, 0.822);
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .second-card {
+    background-color: rgba(209, 77, 29, 0.959);
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .third-card {
+    background-color: rgba(255, 106, 7, 0.884);
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .first-image,
+  .second-image,
+  .third-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .card-heading-first,
+  .card-heading-second,
+  .card-heading-third {
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  .first-card-paragraph,
+  .second-card-paragraph,
+  .third-card-paragraph {
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 7%;
+  }
+  .first-btn,
+  .second-btn,
+  .third-btn {
+    padding: 15px;
+    background-color: white;
+    color: orangered;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 15px;
+    border: none;
+    word-spacing: normal;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-top: 10%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8%;
+  }
+  .first-btn:hover {
+    background-color: rgba(204, 202, 202, 0.89);
+  }
+  .second-btn:hover {
+    background-color: rgba(204, 202, 202, 0.89);
+  }
+  .third-btn:hover {
+    background-color: rgba(204, 202, 202, 0.89);
+  }
+  #our-team {
+    color: white;
+  }
+  #our-team-mobile {
+    display: none;
+  }
+  .team-heading-paragraph h3 {
+    margin: 0 10%;
+    margin-top: 2%;
+    text-transform: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 65px;
+    font-weight: 800;
+  }
+  .team-heading-paragraph span {
+    text-transform: lowercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 65px;
+    font-weight: 800;
+  }
+  .team-heading-paragraph p {
+    margin: 0 10%;
+    margin-top: 2%;
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    font-style: normal;
+    color: rgb(26, 25, 25);
+  }
+  .img-plus-background {
+    margin-top: 5%;
+    width: 90%;
+    background-color: rgba(255, 94, 0, 0.993);
+  }
+  .sub-img-plus-background {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+  }
+  .team-welcome {
+    background-color: rgb(199, 194, 194);
+  }
+  .team-welcome-texts {
+    display: flex;
+    gap: 100px;
+    margin: 0 15%;
+    padding-bottom: 5%;
+  }
+
+  .first-team-welcome-text-flex h3 {
+    color: orangered;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20%;
+    margin-bottom: 10%;
+    border: 5px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-weight: 900;
+    line-height: 45px;
+    font-size: 25px;
+  }
+  .first-team-welcome-text-flex span {
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    padding-top: 15%;
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .first-team-welcome-text-flex p {
+    color: rgb(121, 119, 119);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  .second-team-welcome-text-flex a {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 106, 7, 0.884);
+    color: rgba(255, 255, 255, 0.76);
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .second-team-welcome-text-flex p {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: rgba(39, 38, 38, 0.76);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 25px;
+  }
+  #how-we-work {
+    padding: 7%;
+  }
+  #how-we-work-mobile {
+    display: none;
+  }
+  .how-we-work-texts h3 {
+    font-size: 70px;
+    text-transform: capitalize;
+    color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 5%;
+  }
+  .how-we-work-texts p {
+    font-size: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 5%;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 5%;
+  }
+  .image-grid {
+    margin-left: 5%;
+    display: grid;
+    grid-template-areas:
+      "a b c"
+      "d e e"
+      "g e e";
+    gap: 10px;
+  }
+  .a {
+    grid-area: a;
+  }
+  .b {
+    grid-area: b;
+  }
+  .c {
+    grid-area: c;
+  }
+  .d {
+    grid-area: d;
+  }
+
+  .e {
+    grid-area: e;
+  }
+  .g {
+    grid-area: g;
+  }
+  #build-with-us {
+    background-color: #cccacae3;
+  }
+  #build-with-us-mobile {
+    display: none;
+  }
+  .img-build {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    padding-top: 5%;
+  }
+  .img-build-texts-background {
+    background-color: rgba(255, 94, 0, 0.993);
+    margin-top: -150px;
+  }
+  .img-build-texts {
+    background-color: white;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 30%;
+    position: relative;
+    bottom: 60px;
+    left: 300px;
+    padding: 3%;
+  }
+  .img-build-texts h3 {
+    color: rgba(255, 106, 7, 0.884);
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+  }
+  .img-build-texts p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 16px;
+  }
+  .img-build-texts a {
+    padding: 10px;
+    background-color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: normal;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    width: fit-content;
+  }
+  .mid-text-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    flex-direction: column;
+  }
+  .mid-text-btn-mobile {
+    display: none;
+  }
+  .mid-text-btn p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 23px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 35px;
+    color: rgb(66, 65, 65);
+  }
+  .mid-text-btn a {
+    text-align: center;
+    word-spacing: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(255, 106, 7, 0.884);
+    color: white;
+    letter-spacing: 3px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  #collaboration {
+    background-color: rgba(255, 106, 7, 0.884);
+    padding-top: 5%;
+    height: 1150px;
+  }
+  #collaboration-mobile {
+    display: none;
+  }
+  .first-collaboration-flex {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  .first-collaboration-flex h3 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-top: 50px;
+    line-height: 50px;
+  }
+  .second-collaboration-flex-img {
+    margin: 0 15%;
+    position: relative;
+    bottom: 65px;
+  }
+  .second-collaboration-flex-texts {
+    background-color: white;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 30%;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    padding: 3%;
+  }
+  .second-collaboration-flex-texts h3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+  }
+  .second-collaboration-flex-texts p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 16px;
+  }
+  .second-collaboration-flex-texts a {
+    padding: 10px;
+    background-color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    font-size: 15px;
+  }
+  #contact-us {
+    background-color: rgb(36, 35, 35);
+    padding: 3%;
+  }
+  #contact-us-mobile {
+    display: none;
+  }
+  .first-contact-us-heading {
+    color: rgba(255, 106, 7, 0.884);
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+  .first-contact-us-paragraph {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10%;
+  }
+  .contact-us-card-background {
+    background-color: rgba(255, 106, 7, 0.884);
+    width: 60%;
+    margin: 0 20%;
+    height: 300px;
+    margin-bottom: 10%;
+  }
+  .contact-us-card {
+    position: relative;
+    bottom: 45px;
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: white;
+    width: 90%;
+    padding: 3%;
+    justify-content: center;
+    height: 400px;
+  }
+  .contact-us-card-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contact-us-card-texts p {
+    font-style: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  form > input {
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .long-message {
+    height: 150px;
+    width: 400px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .submit {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    border: none;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 765px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .nav-header {
+    display: none;
+  }
+  #about-us {
+    display: none;
+  }
+  #about-us-mobile {
+    background-color: rgb(199, 194, 194);
+    padding: 15%;
+  }
+  .first-section-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7%;
+  }
+  .heading-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .heading-mobile h3 {
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+  }
+  .heading-mobile h1 {
+    color: rgba(255, 94, 0, 0.993);
+    margin-top: 2%;
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 900;
+  }
+  .heading-mobile p {
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: lighter;
+    margin-top: 3%;
+    color: black;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .btn-mobile {
+    padding: 25px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    border: none;
+    word-spacing: normal;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    width: fit-content;
+  }
+  .btn-mobile:hover {
+    background-color: rgba(223, 70, 14, 0.884);
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 70px;
+    padding: 10px;
+  }
+  .first-card-mobile {
+    background-color: rgba(192, 67, 21, 0.822);
+    width: 550px;
+    height: 500px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .second-card-mobile {
+    background-color: rgba(209, 77, 29, 0.959);
+    width: 550px;
+    height: 500px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .third-card-mobile {
+    background-color: rgba(255, 106, 7, 0.884);
+    width: 550px;
+    height: 500px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .first-image-mobile,
+  .second-image-mobile,
+  .third-image-mobile {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .card-heading-first-mobile,
+  .card-heading-second-mobile,
+  .card-heading-third-mobile {
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 35px;
+    font-weight: lighter;
+  }
+  .first-card-paragraph-mobile,
+  .second-card-paragraph-mobile,
+  .third-card-paragraph-mobile {
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 7%;
+    font-weight: lighter;
+  }
+  .first-btn-mobile,
+  .second-btn-mobile,
+  .third-btn-mobile {
+    padding: 15px;
+    background-color: white;
+    color: orangered;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 23px;
+    border: none;
+    word-spacing: normal;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    margin-top: 10%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8%;
+  }
+  .first-btn-mobile:hover {
+    background-color: rgba(204, 202, 202, 0.89);
+  }
+  .second-btn-mobile:hover {
+    background-color: rgba(204, 202, 202, 0.89);
+  }
+  .third-btn-mobile:hover {
+    background-color: rgba(204, 202, 202, 0.89);
+  }
+  #our-team {
+    display: none;
+  }
+  #our-team-mobile {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .team-heading-paragraph-mobile h3 {
+    margin-top: 2%;
+    text-transform: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: black;
+    margin: 0 10%;
+    margin-top: 5%;
+  }
+  .team-heading-paragraph-mobile span {
+    text-transform: lowercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 55px;
+    font-weight: 800;
+  }
+  .team-heading-paragraph-mobile p {
+    padding-top: 4%;
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    font-style: normal;
+    color: rgb(26, 25, 25);
+    margin: 0 10%;
+  }
+  .img-plus-background-mobile {
+    margin-top: 10%;
+    width: 81%;
+    position: relative;
+    background-color: rgba(255, 94, 0, 0.993);
+    margin-bottom: 15%;
+    top: 100px;
+  }
+  .sub-img-plus-background-mobile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+    margin: 0 auto;
+    left: 70px;
+    gap: 10px;
+  }
+  .team-welcome-mobile {
+    background-color: rgb(199, 194, 194);
+    padding-bottom: 50px;
+  }
+  .team-welcome-texts-mobile {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding: 10px;
+    padding-left: 55px;
+  }
+
+  .first-team-welcome-text-flex-mobile h3 {
+    color: orangered;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    border: 5px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-weight: 900;
+    line-height: 45px;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .first-team-welcome-text-flex-mobile span {
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    padding-top: 20%;
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .first-team-welcome-text-flex-mobile p {
+    color: rgb(121, 119, 119);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+    font-style: italic;
+  }
+  .second-team-welcome-text-flex-mobile a {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 106, 7, 0.884);
+    color: rgba(255, 255, 255, 0.76);
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .second-team-welcome-text-flex-mobile p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #how-we-work {
+    display: none;
+  }
+  #how-we-work-mobile {
+    padding: 5%;
+  }
+  .how-we-work-texts-mobile h3 {
+    font-size: 45px;
+    text-transform: capitalize;
+    color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  .how-we-work-texts-mobile p {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 5%;
+    font-style: italic;
+    line-height: 45px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+  }
+  .image-grid-mobile {
+    padding-left: 5%;
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f";
+    gap: 10px;
+  }
+  .a {
+    grid-area: a;
+  }
+  .b {
+    grid-area: b;
+  }
+  .c {
+    grid-area: c;
+  }
+  .d {
+    grid-area: d;
+  }
+
+  .e {
+    grid-area: e;
+  }
+  .f {
+    grid-area: f;
+  }
+  #build-with-us {
+    display: none;
+  }
+  #build-with-us-mobile {
+    width: fit-content;
+    padding: 10%;
+    margin: 0 9%;
+    background-color: rgb(121, 119, 119);
+    margin-bottom: 30px;
+  }
+  .img-build-mobile {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%; */
+  }
+  .img-build-mobile img {
+    display: block;
+    margin: 0 auto;
+  }
+  .img-build-texts-background-mobile {
+    background-color: rgba(255, 94, 0, 0.993);
+    position: relative;
+    top: 70px;
+    height: 500px;
+    width: 800px;
+  }
+  .img-build-texts-mobile {
+    background-color: white;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    bottom: 100px;
+    margin-top: 10%;
+    width: 550px;
+    margin: 0 auto;
+  }
+  .img-build-texts-mobile h3 {
+    color: rgba(255, 106, 7, 0.884);
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 45px;
+  }
+  .img-build-texts-mobile p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 3%;
+  }
+  .img-build-texts-mobile a {
+    padding: 10px;
+    background-color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: normal;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .mid-text-btn-mobile {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .mid-text-btn-mobile p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 45px;
+    color: rgb(66, 65, 65);
+  }
+  .mid-text-btn-mobile a {
+    text-align: center;
+    word-spacing: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(255, 106, 7, 0.884);
+    color: white;
+    letter-spacing: 3px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  #collaboration-mobile {
+    background-color: rgba(255, 106, 7, 0.884);
+    padding-top: 5%;
+    height: 1150px;
+  }
+  #collaboration {
+    display: none;
+  }
+  .first-collaboration-flex-mobile {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  .first-collaboration-flex-mobileh3 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-top: 50px;
+    line-height: 50px;
+  }
+  .second-collaboration-flex-img-mobile {
+    margin: 0 15%;
+    position: relative;
+    bottom: 65px;
+  }
+  .second-collaboration-flex-texts-mobile {
+    background-color: white;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 30%;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    padding: 3%;
+  }
+  .second-collaboration-flex-texts-mobileh3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+  }
+  .second-collaboration-flex-texts-mobilep {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 16px;
+  }
+  .second-collaboration-flex-texts-mobilea {
+    padding: 10px;
+    background-color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: normal;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    font-size: 15px;
+  }
+  #contact-us-mobile {
+    background-color: rgb(36, 35, 35);
+    padding: 3%;
+  }
+  #contact-us {
+    display: none;
+  }
+  .first-contact-us-heading-mobile {
+    color: rgba(255, 106, 7, 0.884);
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+  .first-contact-us-paragraph-mobile {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10%;
+  }
+  .contact-us-card-background-mobile {
+    background-color: rgba(255, 106, 7, 0.884);
+    width: 60%;
+    margin: 0 20%;
+    height: 300px;
+    margin-bottom: 10%;
+  }
+  .contact-us-card-mobile {
+    position: relative;
+    bottom: 45px;
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: white;
+    width: 90%;
+    padding: 3%;
+    justify-content: center;
+    height: 400px;
+  }
+  .contact-us-card-texts-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contact-us-card-texts-mobilep {
+    font-style: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+  }
+  form-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  form-mobile > input {
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .long-message-mobile {
+    height: 150px;
+    width: 400px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .submit-mobile {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: rgba(255, 106, 7, 0.884);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    border: none;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
 }
