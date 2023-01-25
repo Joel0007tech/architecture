@@ -625,7 +625,7 @@
     cursor: pointer;
   }
 }
-@media screen and (max-width: 494px) {
+@media screen and (max-width: 428px) {
   * {
     padding: 0;
     margin: 0;
@@ -656,12 +656,14 @@
     flex-direction: row;
     gap: 30px;
     justify-content: space-between;
+    border: 3px solid rgba(255, 106, 7, 0.884);
+    border-radius: 10px;
   }
 
   .sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: rgba(192, 67, 21, 0.822);
     display: block;
     transition: 0.3s;
@@ -669,6 +671,7 @@
     position: relative;
     right: 30px;
     font-weight: 500;
+    top: 15px;
   }
 
   .mobile-nav {
@@ -735,7 +738,7 @@
   }
   .heading-mobile h3 {
     color: black;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
@@ -744,7 +747,7 @@
     color: rgba(255, 94, 0, 0.993);
     margin-top: 2%;
     text-transform: capitalize;
-    font-size: 70px;
+    font-size: 45px;
     font-weight: 900;
   }
   .heading-mobile p {
@@ -754,11 +757,11 @@
     font-weight: lighter;
     margin-top: 3%;
     color: black;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 30px;
   }
   .btn-mobile {
-    padding: 25px;
+    padding: 20px;
     background-color: orangered;
     color: white;
     text-decoration: none;
@@ -768,7 +771,7 @@
     border: none;
     word-spacing: normal;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 7%;
     margin-bottom: 2%;
     width: fit-content;
@@ -786,22 +789,22 @@
   }
   .first-card-mobile {
     background-color: rgba(192, 67, 21, 0.822);
-    width: 550px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     padding-top: 5px;
     padding-bottom: 20px;
   }
   .second-card-mobile {
     background-color: rgba(209, 77, 29, 0.959);
-    width: 550px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     padding-top: 5px;
     padding-bottom: 20px;
   }
   .third-card-mobile {
     background-color: rgba(255, 106, 7, 0.884);
-    width: 550px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     padding-top: 5px;
     padding-bottom: 20px;
   }
@@ -820,7 +823,7 @@
     color: white;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: lighter;
   }
   .first-card-paragraph-mobile,
@@ -829,7 +832,7 @@
     color: white;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 600;
     font-style: italic;
     margin-top: 7%;
@@ -838,24 +841,22 @@
   .first-btn-mobile,
   .second-btn-mobile,
   .third-btn-mobile {
-    padding: 15px;
+    padding: 10px;
     background-color: white;
     color: orangered;
     text-decoration: none;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 900;
-    font-size: 23px;
+    font-size: 16px;
     border: none;
     word-spacing: normal;
     cursor: pointer;
-    width: 200px;
-    height: 40px;
+    width: 100px;
     margin-top: 10%;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 8%;
   }
   .first-btn-mobile:hover {
     background-color: rgba(204, 202, 202, 0.89);
@@ -879,7 +880,7 @@
     margin-top: 2%;
     text-transform: none;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 55px;
+    font-size: 30px;
     font-weight: 800;
     color: black;
     margin: 0 10%;
@@ -888,14 +889,14 @@
   .team-heading-paragraph-mobile span {
     text-transform: lowercase;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 55px;
+    font-size: 30px;
     font-weight: 800;
   }
   .team-heading-paragraph-mobile p {
     padding-top: 4%;
     text-transform: capitalize;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 35px;
     font-style: normal;
@@ -922,13 +923,14 @@
   .team-welcome-mobile {
     background-color: rgb(199, 194, 194);
     padding-bottom: 50px;
+    margin-top: 35px;
   }
   .team-welcome-texts-mobile {
     display: flex;
     flex-direction: column;
     padding-bottom: 5%;
     padding: 10px;
-    padding-left: 55px;
+    padding-left: 25px;
   }
 
   .first-team-welcome-text-flex-mobile h3 {
@@ -942,7 +944,7 @@
     border-left: none;
     font-weight: 900;
     line-height: 45px;
-    font-size: 45px;
+    font-size: 30px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -951,13 +953,13 @@
     font-family: Georgia, "Times New Roman", Times, serif;
     text-transform: capitalize;
     padding-top: 20%;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 45px;
   }
   .first-team-welcome-text-flex-mobile p {
     color: rgb(121, 119, 119);
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 40px;
@@ -972,7 +974,7 @@
     word-spacing: normal;
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     text-decoration: none;
     margin-bottom: 5px;
@@ -986,7 +988,7 @@
     text-transform: capitalize;
     font-style: normal;
     line-height: 35px;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -995,9 +997,10 @@
   }
   #how-we-work-mobile {
     padding: 5%;
+    margin-top: 30px;
   }
   .how-we-work-texts-mobile h3 {
-    font-size: 45px;
+    font-size: 30px;
     text-transform: capitalize;
     color: rgba(255, 106, 7, 0.884);
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -1005,7 +1008,7 @@
     margin-top: 10px;
   }
   .how-we-work-texts-mobile p {
-    font-size: 25px;
+    font-size: 16px;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 5%;
     font-style: italic;
@@ -1074,18 +1077,18 @@
     position: absolute;
     bottom: 80px;
     left: 70px;
-    width: 550px;
+    width: 350px;
   }
   .img-build-texts-mobile h3 {
     color: rgba(255, 106, 7, 0.884);
     text-transform: capitalize;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 45px;
+    font-size: 30px;
   }
   .img-build-texts-mobile p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 40px;
     padding-top: 3%;
   }
@@ -1101,7 +1104,7 @@
     text-align: center;
     width: fit-content;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 16px;
   }
   .mid-text-btn-mobile {
     display: flex;
@@ -1114,7 +1117,7 @@
   }
   .mid-text-btn-mobile p {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: lighter;
     font-style: normal;
@@ -1145,21 +1148,16 @@
   }
   #collaboration-mobile {
     background-color: rgba(255, 106, 7, 0.884);
-    padding-top: 5%;
-    height: 1200px;
-    margin-bottom: 10%;
+    padding: 10px;
+    height: 1300px;
   }
   #collaboration {
     display: none;
   }
-  .first-collaboration-flex-mobile {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-  }
+
   .first-collaboration-flex-mobile h3 {
     color: white;
-    font-size: 45px;
+    font-size: 25px;
     text-transform: capitalize;
     font-weight: 800;
     margin-top: 10px;
@@ -1167,20 +1165,20 @@
     margin-left: 20px;
   }
   .second-collaboration-flex-img-mobile {
-    margin: 0 15%;
     position: relative;
     bottom: 65px;
+    left: 65px;
   }
   .second-collaboration-flex-texts-mobile {
     background-color: white;
     border: 3px solid white;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     margin: 0 30%;
     position: relative;
     bottom: 140px;
-    left: 20px;
+    right: 130px;
     padding: 7%;
     gap: 30px;
   }
@@ -1188,12 +1186,12 @@
     color: black;
     text-transform: capitalize;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 40px;
+    font-size: 25px;
   }
   .second-collaboration-flex-texts-mobile p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 16px;
   }
   .second-collaboration-flex-texts-mobile a {
     padding: 10px;
@@ -1220,7 +1218,7 @@
   }
   .first-contact-us-heading-mobile {
     color: rgba(255, 106, 7, 0.884);
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 800;
     text-transform: capitalize;
     text-align: center;
@@ -1229,7 +1227,7 @@
   .first-contact-us-paragraph-mobile {
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     margin-top: 7%;
@@ -1237,7 +1235,7 @@
   }
   .contact-us-card-background-mobile {
     background-color: rgba(255, 106, 7, 0.884);
-    width: 85%;
+    width: 100%;
     height: 420px;
     margin-bottom: 10%;
     margin: 0 auto;
@@ -1263,7 +1261,7 @@
   .contact-us-card-texts-mobile p {
     font-style: normal;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 16px;
   }
   .contact-us-card-form-mobile {
     margin-left: 10px;
@@ -1275,23 +1273,23 @@
   }
   .name-form-mobile {
     height: 50px;
-    width: 250px;
+    width: 150px;
     padding-left: 5px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 13px;
   }
   .mail-form-mobile {
     height: 50px;
-    width: 250px;
+    width: 150px;
     padding-left: 5px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 13px;
   }
   .long-message-form {
     height: 150px;
-    width: 250px;
+    width: 150px;
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 13px;
   }
   .submit-mobile {
     background-color: rgba(255, 106, 7, 0.884);
