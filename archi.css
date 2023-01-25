@@ -8,7 +8,6 @@
   body {
     max-height: 100vh;
     min-height: 100vh;
-    overflow-y: hidden;
   }
   .nav-mobile-img {
     display: none;
@@ -742,12 +741,13 @@
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
+    margin-left: 5px;
   }
   .heading-mobile h1 {
     color: rgba(255, 94, 0, 0.993);
     margin-top: 2%;
     text-transform: capitalize;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 900;
   }
   .heading-mobile p {
@@ -757,11 +757,11 @@
     font-weight: lighter;
     margin-top: 3%;
     color: black;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 30px;
   }
   .btn-mobile {
-    padding: 20px;
+    padding: 15px;
     background-color: orangered;
     color: white;
     text-decoration: none;
@@ -771,7 +771,7 @@
     border: none;
     word-spacing: normal;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 13px;
     margin-top: 7%;
     margin-bottom: 2%;
     width: fit-content;
@@ -779,32 +779,33 @@
   .btn-mobile:hover {
     background-color: rgba(223, 70, 14, 0.884);
   }
-  .cards {
+  .cards-mobile {
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 70px;
     padding: 10px;
+    top: -10px;
+    right: 10px;
   }
   .first-card-mobile {
     background-color: rgba(192, 67, 21, 0.822);
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     padding-top: 5px;
     padding-bottom: 20px;
   }
   .second-card-mobile {
     background-color: rgba(209, 77, 29, 0.959);
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     padding-top: 5px;
     padding-bottom: 20px;
   }
   .third-card-mobile {
     background-color: rgba(255, 106, 7, 0.884);
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     padding-top: 5px;
     padding-bottom: 20px;
   }
@@ -823,7 +824,7 @@
     color: white;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: lighter;
   }
   .first-card-paragraph-mobile,
@@ -832,7 +833,7 @@
     color: white;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
     font-style: italic;
     margin-top: 7%;
@@ -848,7 +849,7 @@
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 13px;
     border: none;
     word-spacing: normal;
     cursor: pointer;
@@ -880,7 +881,7 @@
     margin-top: 2%;
     text-transform: none;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     color: black;
     margin: 0 10%;
@@ -889,23 +890,23 @@
   .team-heading-paragraph-mobile span {
     text-transform: lowercase;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
   }
   .team-heading-paragraph-mobile p {
     padding-top: 4%;
     text-transform: capitalize;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 20px;
     font-style: normal;
     color: rgb(26, 25, 25);
     margin: 0 10%;
   }
   .img-plus-background-mobile {
     margin-top: 10%;
-    width: 81%;
+    width: 60%;
     position: relative;
     background-color: rgba(255, 94, 0, 0.993);
     margin-bottom: 15%;
@@ -917,7 +918,7 @@
     position: relative;
     bottom: 100px;
     margin: 0 auto;
-    left: 70px;
+    left: 40px;
     gap: 10px;
   }
   .team-welcome-mobile {
@@ -944,7 +945,7 @@
     border-left: none;
     font-weight: 900;
     line-height: 45px;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -953,13 +954,13 @@
     font-family: Georgia, "Times New Roman", Times, serif;
     text-transform: capitalize;
     padding-top: 20%;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 45px;
   }
   .first-team-welcome-text-flex-mobile p {
     color: rgb(121, 119, 119);
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 13px;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 40px;
@@ -988,7 +989,7 @@
     text-transform: capitalize;
     font-style: normal;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1000,7 +1001,7 @@
     margin-top: 30px;
   }
   .how-we-work-texts-mobile h3 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: capitalize;
     color: rgba(255, 106, 7, 0.884);
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -1008,11 +1009,11 @@
     margin-top: 10px;
   }
   .how-we-work-texts-mobile p {
-    font-size: 16px;
+    font-size: 13px;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 5%;
     font-style: italic;
-    line-height: 45px;
+    line-height: 25px;
     margin-bottom: 5%;
     margin-top: 10px;
   }
@@ -1052,7 +1053,7 @@
   }
   #build-with-us-mobile {
     width: fit-content;
-    padding: 10%;
+    padding: 15%;
     background-color: rgb(121, 119, 119);
     margin-bottom: 30px;
   }
@@ -1062,7 +1063,7 @@
   .img-build-texts-background-mobile {
     background-color: rgba(255, 94, 0, 0.993);
     top: 70px;
-    height: 500px;
+    height: 250px;
     width: 800px;
     right: 70px;
     position: relative;
@@ -1073,23 +1074,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
     position: absolute;
-    bottom: 80px;
+    bottom: 70px;
     left: 70px;
-    width: 350px;
+    width: 300px;
   }
   .img-build-texts-mobile h3 {
     color: rgba(255, 106, 7, 0.884);
     text-transform: capitalize;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 30px;
+    font-size: 16px;
   }
   .img-build-texts-mobile p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: normal;
-    font-size: 16px;
-    line-height: 40px;
+    font-size: 13px;
+    line-height: 25px;
     padding-top: 3%;
   }
   .img-build-texts-mobile a {
@@ -1117,11 +1118,11 @@
   }
   .mid-text-btn-mobile p {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
     font-weight: lighter;
     font-style: normal;
-    line-height: 45px;
+    line-height: 25px;
     color: rgb(66, 65, 65);
   }
   .mid-text-btn-mobile a {
@@ -1130,9 +1131,9 @@
     font-family: Georgia, "Times New Roman", Times, serif;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 500;
-    padding: 15px;
+    padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: rgba(255, 106, 7, 0.884);
@@ -1149,7 +1150,7 @@
   #collaboration-mobile {
     background-color: rgba(255, 106, 7, 0.884);
     padding: 10px;
-    height: 1300px;
+    height: 1050px;
   }
   #collaboration {
     display: none;
@@ -1157,24 +1158,28 @@
 
   .first-collaboration-flex-mobile h3 {
     color: white;
-    font-size: 25px;
+    font-size: 16px;
     text-transform: capitalize;
     font-weight: 800;
     margin-top: 10px;
     line-height: 50px;
     margin-left: 20px;
   }
+  .first-collaboration-flex-mobile img {
+    position: relative;
+    right: 10px;
+  }
   .second-collaboration-flex-img-mobile {
     position: relative;
     bottom: 65px;
-    left: 65px;
+    left: 120px;
   }
   .second-collaboration-flex-texts-mobile {
     background-color: white;
     border: 3px solid white;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 60%;
     margin: 0 30%;
     position: relative;
     bottom: 140px;
@@ -1186,12 +1191,12 @@
     color: black;
     text-transform: capitalize;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 16px;
   }
   .second-collaboration-flex-texts-mobile p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
   }
   .second-collaboration-flex-texts-mobile a {
     padding: 10px;
@@ -1204,7 +1209,7 @@
     color: white;
     text-align: center;
     width: fit-content;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
   }
   #contact-us-mobile {
@@ -1244,7 +1249,7 @@
     position: relative;
     bottom: 45px;
     display: flex;
-    gap: 50px;
+    gap: 10px;
     margin: 0 auto;
     margin-top: 10%;
     background-color: white;
@@ -1256,7 +1261,7 @@
   .contact-us-card-texts-mobile {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
   }
   .contact-us-card-texts-mobile p {
     font-style: normal;
@@ -1293,11 +1298,11 @@
   }
   .submit-mobile {
     background-color: rgba(255, 106, 7, 0.884);
-    font-size: 25px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
-    width: min-content;
-    padding: 5px;
+    width: fit-content;
+    padding: 10px;
     text-align: center;
-    height: 50px;
+    height: 40px;
   }
 }
