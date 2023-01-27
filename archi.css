@@ -638,6 +638,7 @@
   .nav-mobile-img {
     position: relative;
     top: 30px;
+    right: 15px;
   }
 
   *.sidepanel {
@@ -705,7 +706,9 @@
     background-color: rgba(255, 106, 7, 0.884);
     color: white;
     padding: 10px 15px;
-    border: none;
+    border-radius: 7px;
+    position: relative;
+    right: 10px;
   }
 
   .openbtn:hover {
